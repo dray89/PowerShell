@@ -1,0 +1,19 @@
+/dray89/calculating-distance-lab-data-science-intro-000  
+/dray89/nearest-neighbors-readme-data-science-intro-000  
+/dray89/sigma-notation-data-science-intro-000  
+/dray89/calculating-lines-data-science-intro-000  
+/dray89/single-variable-regression-data-science-intro-000  
+/dray89/visualizing-in-python-data-science-intro-000  
+/dray89/conditionals-python-lab-data-science-intro-000  
+/dray89/conditionals-python-readme-data-science-intro-000  
+/dray89/function-arguments-lab-data-science-intro-000  
+/dray89/function-arguments-readme-data-science-intro-000  
+/dray89/python-scope-readme-data-science-intro-000  
+/dray89/introduction-to-functions-lab-data-science-intro-000  
+/dray89/python-lists-readme-data-science-intro-000  
+/dray89/python-variables-readme-data-science-intro-000  
+/dray89/python-variables-lab-data-science-intro-000  
+/dray89/python-practice-with-datatypes-data-science-intro-000  
+
+
+get-content .\Documents\delete_github_repos.txt | ForEach-Object { Invoke-WebRequest -uri https://api.github.com/repos$_ -Method Delete -Headers @{"Authorization"="token 3ddd24ed6eb231689163b8742fbfae571b7c7ec3"}}

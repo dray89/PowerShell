@@ -1,0 +1,1 @@
+get-content .\Documents\delete_github_repos.txt | ForEach-Object { Invoke-WebRequest -uri https://api.github.com/repos$_ -Method Delete -Headers @{"Authorization"="token 3ddd24ed6eb231689163b8742fbfae571b7c7ec3"}}
