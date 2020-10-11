@@ -1,0 +1,1 @@
+Move-Item *.ipynb C:\Users\rayde\iCloudDrive\GitHub\JupyterNotebooks
